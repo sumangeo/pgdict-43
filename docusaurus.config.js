@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'pgdict-43', // Usually your GitHub org/user name.
+  projectName: 'pgdict-43', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'PGDICT-43 BCC',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'PGDICT-43 BCC Logo',
           src: 'img/logo.svg',
         },
         items: [
