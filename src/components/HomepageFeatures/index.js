@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'BCC PGD ICT 43 Alumni',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This platform has been created exclusively for alumni. Once we have completed our studies, we will join the ranks of alumni. Therefore, it is important to remember one another and stay connected through this platform. It serves as a means to foster and maintain our connections.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on Study',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This website is designed for the purpose of sharing class materials and promoting regular studying. It provides a convenient platform for easily finding and accessing study materials.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Project Demonstration',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        This project is a personal endeavor aimed at showcasing the knowledge and skills acquired during the PGDICT 43 course. It serves as a practice ground where we can apply and further enhance what we have learned.
       </>
     ),
   },
