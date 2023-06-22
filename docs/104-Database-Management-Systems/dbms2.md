@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # DBMS Class 2
 
+# DBMS Normalization Rest
+
 June 22, 2023
 
 Composite primary key- data is not identified by one pk, so another key needed, that pk is compost key.
