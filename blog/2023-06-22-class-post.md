@@ -6,7 +6,7 @@ authors:
   title: Student
   url: https://github.com/sumangeo
   image_url: https://github.com/sumangeo.png
-tags: [hola, docusaurus]
+tags: [web, 106]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+web design, html
