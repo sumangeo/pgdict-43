@@ -39,3 +39,27 @@ What is DB?> Collection of table
 What is DBMS> software এর মাধ্যমে ..
 
 Example?>
+
+## **RDBMS:** Relational DBMS
+
+SQL> Structured Query Language
+
+Relational Database Management System (RDBMS) consists of A set of related tables
+
+**A schema**
+
+A schema: A database schema is the skeleton structure that represents the logical view of the entire data.
+
+**Tables/relations:**
+
+Stores information about an entity or theme-Consist of columns (fields) and rows (records).
+
+Rows /tuples, describing information about a single item, ie A specific student
+
+columns /attributes, describing a single characteristic (attributes) of its item. ie id, name, address etc
+
+Every row is unique & identified by a key
+
+(Sample of RDBMS)
+
+একই টেবিলে দুইটা ফরেন কি থাকতে পারে
