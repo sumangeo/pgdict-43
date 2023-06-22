@@ -1,11 +1,11 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: web-class-post
+title: Today's Web Class 
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  name: Suman
+  title: Student
+  url: https://github.com/sumangeo
+  image_url: https://github.com/sumangeo.png
 tags: [hola, docusaurus]
 ---
 
