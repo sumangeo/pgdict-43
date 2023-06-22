@@ -5,6 +5,7 @@ sidebar_position: 1
 # DBMS Class 1
 
 First Class taken by **Director** Sir on 8 June 2023
+
 **What is Data?**
 
 Data Consist of Letters, Numbers, Character, or combination of Alphabets & Numbers for facts. 
