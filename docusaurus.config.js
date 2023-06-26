@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'pgdict-43', // Usually your GitHub org/user name.
+  organizationName: 'SumaGeo', // Usually your GitHub org/user name.
   projectName: 'pgdict-43', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -72,12 +72,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Class',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: '#',
-            label: 'GitHub',
+            href: 'https://www.facebook.com/SumanGeo',
+            label: 'Facebook',
             position: 'right',
           },
         ],
@@ -89,7 +89,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Class',
                 to: '/docs/intro',
               },
             ],
@@ -102,12 +102,12 @@ const config = {
                 href: '#',
               },
               {
-                label: 'Discord',
-                href: '#',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/sumangeo/',
               },
               {
                 label: 'Twitter',
-                href: '#',
+                href: 'https://twitter.com/oporazito',
               },
             ],
           },
@@ -119,8 +119,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: '#',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/SumanGeo',
               },
             ],
           },
