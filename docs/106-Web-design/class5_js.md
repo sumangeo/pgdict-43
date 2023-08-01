@@ -2,8 +2,22 @@
 sidebar_position: 5
 ---
 
-# Class 3: Bootstrap
+# Class 5: Javascript
 
-Class 5
+## JavaScript
 
-Javascript
+**Application of JavaScript**
+
+Real Programming
+
+Data user
+
+Slider,
+
+Web Development
+
+Presentation
+
+Server Application
+
+Game, Smartwatch, Mobile Apps
