@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 11
 ---
 
 # Students of PGDICT 43 Batch
