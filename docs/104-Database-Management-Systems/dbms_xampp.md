@@ -32,3 +32,31 @@ Jdate date,
 Basic float(10,2));
 
 ```
+
+Query using command, adding calculations:
+
+```
+SELECT
+  EmpID,
+  Name,
+  totalSal,
+  PF,
+  totalSal - PF AS NetSal
+FROM
+  (SELECT
+    EmpID,
+    Name,
+    Basic + Basic * 0.5 + 1500 AS totalSal,
+    Basic + Basic * 0.10 AS PF
+  FROM
+    empinfo) AS subquery_alias;
+```
+or
+
+```
+SELECT EmpID,Name,Basic+Basic*.5+1500 totalSal, 
+(Basic+Basic*.15) PF,
+(Basic+Basic*.5+1500)- (Basic+Basic*.15) NetSal FROM empinfo;
+
+```
+
