@@ -6,6 +6,14 @@ sidebar_position: 5
 
 ## SQL Statement
 
+#### Characteristics of Primary Key:
+Must be Unique value 
+not null
+PK Assign when create a table.
+Table a kiki data thakbe ta dite hoy.
+
+
+
 I deleted first row from 'emploee' table using this code:
 
 ```
@@ -51,10 +59,11 @@ FROM
   FROM
     empinfo) AS subquery_alias;
 ```
+
 or
 
 ```
-SELECT EmpID,Name,Basic+Basic*.5+1500 totalSal, 
+SELECT EmpID,Name,Basic+Basic*.5+1500 totalSal,
 (Basic+Basic*.15) PF,
 (Basic+Basic*.5+1500)- (Basic+Basic*.15) NetSal FROM empinfo;
 
