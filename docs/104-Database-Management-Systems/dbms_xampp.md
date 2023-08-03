@@ -7,12 +7,11 @@ sidebar_position: 5
 ## SQL Statement
 
 #### Characteristics of Primary Key:
-Must be Unique value 
+
+Must be Unique value
 not null
 PK Assign when create a table.
 Table a kiki data thakbe ta dite hoy.
-
-
 
 I deleted first row from 'emploee' table using this code:
 
@@ -69,3 +68,11 @@ SELECT EmpID,Name,Basic+Basic*.5+1500 totalSal,
 
 ```
 
+To Data Conditionaly,
+.... Where EmpID=1000;
+
+Example:
+
+```
+SELECT EmpID, Name, Basic FROM empinfo WHERE Name="Abdul Latif";
+```
