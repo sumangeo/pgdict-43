@@ -22,4 +22,13 @@ VALUES
     (104, 'Williams', 'Michael', 'M', '2023-08-05', '505');
 '''
 
+Created table using command:
 
+```
+CREATE TABLE EmpInfo (
+EmpID int(10) PRIMARY KEY,
+Name varchar(30),
+Jdate date,
+Basic float(10,2));
+
+```
