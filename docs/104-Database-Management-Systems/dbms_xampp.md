@@ -8,18 +8,18 @@ sidebar_position: 5
 
 #### Characteristics of Primary Key:
 
-Must be Unique value
-not null
-PK Assign when create a table.
-Table a kiki data thakbe ta dite hoy.
+> Must be Unique value
+> not null
+> PK Assign when create a table.
+> Table a kiki data thakbe ta dite hoy.
 
-I deleted first row from 'emploee' table using this code:
+I deleted first row from 'employee' table using this code:
 
 ```
 DELETE FROM employee WHERE `Emp_Num` = (SELECT MIN(`Emp_Num`) FROM employee);
 ```
 
-I added data/rows into 'employee' table by this code:
+#### I added data/rows into 'employee' table by this code:
 
 ```
 INSERT INTO employee (Emp_Num, Emp_LName, Emp_FName, Emp_Initial, EMP_Hiredate, Job_Code)
@@ -29,7 +29,7 @@ VALUES
     (104, 'Williams', 'Michael', 'M', '2023-08-05', '505');
 ```
 
-Created table using command:
+#### Created table using command:
 
 ```
 CREATE TABLE EmpInfo (
@@ -40,7 +40,7 @@ Basic float(10,2));
 
 ```
 
-Query using command, adding calculations:
+#### Query using command, adding calculations:
 
 ```
 SELECT
@@ -76,3 +76,5 @@ Example:
 ```
 SELECT EmpID, Name, Basic FROM empinfo WHERE Name="Abdul Latif";
 ```
+___
+
