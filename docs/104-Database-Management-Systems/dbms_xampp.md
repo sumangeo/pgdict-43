@@ -20,7 +20,7 @@ VALUES
     (102, 'Smith', 'John', 'J', '2023-08-03', '503'),
     (103, 'Johnson', 'Jane', 'A', '2023-08-04', '504'),
     (104, 'Williams', 'Michael', 'M', '2023-08-05', '505');
-'''
+```
 
 Created table using command:
 
