@@ -11,18 +11,24 @@ Craete Table Student43
 ## 3rd table 1st
 
 ```
-Create Table Location (
-LocationID int(4) Primary Key,
-Location Name VARCHAR(30));
+CREATE TABLE Location (
+    LocationID INT(4) PRIMARY KEY,
+    LocationName VARCHAR(30)
+);
+
 ```
 
 ## 2nd Table 2nd
 
 ```
-Create Table Department(
-DeptID int(2) Primary Key,
-DName VARCHAR (30),
-Location ID int(4),
+CREATE TABLE Department (
+    DeptID INT(2) PRIMARY KEY,
+    DeptName VARCHAR(30),
+    LocationID INT(4)
+);
+
+
+
 Foreign Key(LocationID) Reference Location (LocationID));
 
 ```
@@ -30,14 +36,18 @@ Foreign Key(LocationID) Reference Location (LocationID));
 ## 1st Table 3rd
 
 ```
-Create Table EMP(
-EmpID int(4) Primary Key,
-EmpName VARCHAR (30),
-Basic float(10,2),
-JDate Date,
-Address VARCHAR (30),
-DeptID int(2),
-Foreign Key(DeptID) Reference Dept (DeptID));
+CREATE TABLE EMPLOYEE (
+    EmpID INT(4) PRIMARY KEY,
+    EmpName VARCHAR(30),
+    Basic FLOAT(10,2),
+    JDate DATE,
+    Address VARCHAR(30),
+    DeptID INT(2)
+
+);
+
+
+FOREIGN KEY (DeptID) REFERENCES Department(DeptID)
 
 ```
 
