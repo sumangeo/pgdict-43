@@ -40,3 +40,24 @@ DeptID int(2),
 Foreign Key(DeptID) Reference Dept (DeptID));
 
 ```
+
+## Function two types
+
+Function two types
+
+1. Single row
+2.
+
+Some function single এর অপর effect পড়ে, কিছু কিছু ফাংশন Gruoup এর ওপর ইফেক্ট পড়ে।
+
+## Character FUnction
+
+Case Manipulation functions
+LOWER
+UPPER
+INITCAP
+
+Character Manipulation Function
+
+CONCAT
+SUBSTR
