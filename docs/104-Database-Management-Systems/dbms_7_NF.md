@@ -61,3 +61,5 @@ Character Manipulation Function
 
 CONCAT
 SUBSTR
+
+Date and Text must be QUOTATION ''
